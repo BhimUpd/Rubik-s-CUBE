@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#1e96fc">
+
+
+    <org.opencv.android.JavaCameraView
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:padding="50sp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp">
+
+            <View
+                android:id="@+id/colorBox1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbc04" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp">
+
+            <View
+                android:id="@+id/colorBox2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbc04" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp">
+
+            <View
+                android:id="@+id/colorBox3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbc04" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp">
+
+            <View
+                android:id="@+id/colorBox4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbc04" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp">
+
+            <View
+                android:id="@+id/colorBox5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbc04" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp">
+
+            <View
+                android:id="@+id/colorBox6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbc04" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp">
+
+            <View
+                android:id="@+id/colorBox7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbc04" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp">
+
+            <View
+                android:id="@+id/colorBox8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbc04" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="10dp">
+
+            <View
+                android:id="@+id/colorBox9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffbc04" />
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>
